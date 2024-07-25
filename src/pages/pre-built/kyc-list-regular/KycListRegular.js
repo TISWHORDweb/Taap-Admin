@@ -454,7 +454,7 @@ const KycListRegular = () => {
                           </div>
                         </DataTableRow>
                         <DataTableRow>
-                          <Link to={`${process.env.PUBLIC_URL}/kyc-details-regular/${item.id}`}>
+                          <Link to={`/kyc-details-regular/${item.id}`}>
                             <div className="user-card">
                               <UserAvatar
                                 theme={item.avatarBg}
@@ -623,7 +623,7 @@ const KycListRegular = () => {
                                     </li>
                                     <li>
                                       <Link
-                                        to={`${process.env.PUBLIC_URL}/kyc-details-regular/${item.id}`}
+                                        to={`/kyc-details-regular/${item.id}`}
                                       >
                                         <Icon name="focus"></Icon>
                                         <span>View Details</span>

@@ -230,7 +230,7 @@ export const ContactItem = ({ item, setTab, setSelectedId }) => {
                 <div className="user-name">{contact.name}</div>
               </a>
               <div className="user-actions">
-                <Link to={`${process.env.PUBLIC_URL}/app-chat`}>Start Chat</Link>
+                <Link to={`/app-chat`}>Start Chat</Link>
               </div>
             </div>
           </li>

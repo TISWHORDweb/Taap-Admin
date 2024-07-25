@@ -51,13 +51,13 @@ const InvoiceDetails = () => {
                 </BlockDes>
               </BlockHeadContent>
               <BlockHeadContent>
-                <Link to={`${process.env.PUBLIC_URL}/invoice-list`}>
+                <Link to={`/invoice-list`}>
                   <Button color="light" outline className="bg-white d-none d-sm-inline-flex">
                     <Icon name="arrow-left"></Icon>
                     <span>Back</span>
                   </Button>
                 </Link>
-                <Link to={`${process.env.PUBLIC_URL}/invoice-list`}>
+                <Link to={`/invoice-list`}>
                   <Button color="light" outline className="btn-icon bg-white d-inline-flex d-sm-none">
                     <Icon name="arrow-left"></Icon>
                   </Button>
@@ -69,7 +69,7 @@ const InvoiceDetails = () => {
           <Block>
             <div className="invoice">
               <div className="invoice-action">
-                <Link to={`${process.env.PUBLIC_URL}/invoice-print/${user.id}`} target="_blank">
+                <Link to={`/invoice-print/${user.id}`} target="_blank">
                   <Button size="lg" color="primary" outline className="btn-icon btn-white btn-dim">
                     <Icon name="printer-fill"></Icon>
                   </Button>

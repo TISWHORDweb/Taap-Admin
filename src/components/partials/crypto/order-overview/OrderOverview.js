@@ -14,7 +14,7 @@ const OrderOverview = () => {
           <h6 className="title">Orders Overview</h6>
           <p>
             In last {orderOverview === "set2" ? "30" : "15"} days buy and sells overview.{" "}
-            <Link to={`${process.env.PUBLIC_URL}/invoice-list`} className="link link-sm">
+            <Link to={`/invoice-list`} className="link link-sm">
               Detailed Stats
             </Link>
           </p>

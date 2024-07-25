@@ -662,7 +662,7 @@ const UserListRegularPage = () => {
                           </div>
                         </DataTableRow>
                         <DataTableRow>
-                          <Link to={`${process.env.PUBLIC_URL}/user-details-regular/${item.id}`}>
+                          <Link to={`/user-details-regular/${item.id}`}>
                             <div className="user-card">
                               <UserAvatar
                                 theme={item.avatarBg}

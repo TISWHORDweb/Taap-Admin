@@ -32,7 +32,7 @@ const Typography = () => {
               <p className="lead">
                 These examples for typography, including global settings, headings, body text, lists, and more. When
                 more control is needed, check out the{" "}
-                <Link to={`${process.env.PUBLIC_URL}/components/util-text`}>textual utility classes.</Link>
+                <Link to={`/components/util-text`}>textual utility classes.</Link>
               </p>
             </BlockDes>
           </BlockHeadContent>
@@ -132,7 +132,7 @@ const Typography = () => {
             <BlockHeadContent>
               <BlockTitle tag="h5">Customize headings</BlockTitle>
               <p>
-                Use the <Link to={`${process.env.PUBLIC_URL}/components/util-text`}>text utitlity classes</Link> to
+                Use the <Link to={`/components/util-text`}>text utitlity classes</Link> to
                 customize the heading text further.
               </p>
             </BlockHeadContent>
@@ -156,8 +156,8 @@ const Typography = () => {
               <BlockTitle tag="h5">Inline Element & Text Style</BlockTitle>
               <p>
                 Change text alignment, transform, style, weight, and color with our{" "}
-                <Link to={`${process.env.PUBLIC_URL}/components/util-text`}>text utitlity classes</Link> and{" "}
-                <Link to={`${process.env.PUBLIC_URL}/components/util-colors`}>color utilities</Link>.
+                <Link to={`/components/util-text`}>text utitlity classes</Link> and{" "}
+                <Link to={`/components/util-colors`}>color utilities</Link>.
               </p>
             </BlockHeadContent>
           </BlockHead>

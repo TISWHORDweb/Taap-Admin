@@ -275,7 +275,7 @@ const UserContactCardPage = () => {
                       </li>
                     </ul>
                     <div className="team-view">
-                      <Link to={`${process.env.PUBLIC_URL}/user-details-regular/${item.id}`}>
+                      <Link to={`/user-details-regular/${item.id}`}>
                         <Button outline color="light" className="btn-round w-150px">
                           <span>View Profile</span>
                         </Button>
@@ -368,7 +368,7 @@ const UserContactCardPage = () => {
                       </li>
                     </ul>
                     <div className="team-view">
-                      <Link to={`${process.env.PUBLIC_URL}/user-details-regular/${item.id}`}>
+                      <Link to={`/user-details-regular/${item.id}`}>
                         <Button color="primary" className="btn-block btn-dim">
                           <span>View Profile</span>
                         </Button>

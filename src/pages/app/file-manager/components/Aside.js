@@ -31,10 +31,10 @@ const FileManagerAside = ({...props}) =>  {
                       fileManagerUpdate.asideHide();
                     }}
                     className={`${
-                      window.location.pathname === `${process.env.PUBLIC_URL}/app-file-manager${item.link}` ? "active" : ""
+                      window.location.pathname === `/app-file-manager${item.link}` ? "active" : ""
                     }`}
                   >
-                    <Link className="nk-fmg-menu-item" to={`${process.env.PUBLIC_URL}/app-file-manager${item.link}`}>
+                    <Link className="nk-fmg-menu-item" to={`/app-file-manager${item.link}`}>
                       <Icon name={item.icon}></Icon>
                       <span className="nk-fmg-menu-text">{item.text}</span>
                     </Link>
@@ -58,7 +58,7 @@ const FileManagerAside = ({...props}) =>  {
                   12.47 GB of {fileManager.data.plans.find((item) => item.id === fileManager.currentPlan).memory} GB used
                 </div>
                 <div className="nk-fmg-status-action">
-                  <Link to={`${process.env.PUBLIC_URL}/app-file-manager/settings?tab=billing`} className="link link-primary link-sm">
+                  <Link to={`/app-file-manager/settings?tab=billing`} className="link link-primary link-sm">
                     Upgrade Storage
                   </Link>
                 </div>
@@ -92,7 +92,7 @@ const FileManagerAside = ({...props}) =>  {
                       ))}
                       <li className="divider"></li>
                       <li>
-                        <Link to={`${process.env.PUBLIC_URL}/app-file-manager/settings?tab=billing`} className="link">
+                        <Link to={`/app-file-manager/settings?tab=billing`} className="link">
                           <span>Upgrade Plan</span>
                         </Link>
                       </li>

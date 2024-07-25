@@ -69,7 +69,7 @@ const User = () => {
         </div>
         <div className="dropdown-inner">
           <LinkList>
-            <a href={`${process.env.PUBLIC_URL}/auth-login`}>
+            <a href={`/auth-login`}>
               <Icon name="signout"></Icon>
               <span>Sign Out</span>
             </a>

@@ -122,13 +122,13 @@ const ProductDetails = () => {
                 </BlockDes>
               </BlockHeadContent>
               <BlockHeadContent>
-                <Link to={`${process.env.PUBLIC_URL}/product-card`}>
+                <Link to={`/product-card`}>
                   <Button color="light" outline className="bg-white d-none d-sm-inline-flex">
                     <Icon name="arrow-left"></Icon>
                     <span>Back</span>
                   </Button>
                 </Link>
-                <Link to={`${process.env.PUBLIC_URL}/product-card`}>
+                <Link to={`/product-card`}>
                   <Button color="light" outline className="btn-icon bg-white d-inline-flex d-sm-none">
                     <Icon name="arrow-left"></Icon>
                   </Button>
@@ -484,7 +484,7 @@ const ProductDetails = () => {
                   <Col key={item.id}>
                     <Card className="card-bordered product-card me-3 ms-3">
                       <div className="product-thumb">
-                        <Link to={`${process.env.PUBLIC_URL}/product-details/${item.id}`}>
+                        <Link to={`/product-details/${item.id}`}>
                           <img className="card-img-top" src={item.img} alt="" />
                         </Link>
                         <ul className="product-badges">
@@ -521,7 +521,7 @@ const ProductDetails = () => {
                           </li>
                         </ul>
                         <h5 className="product-title">
-                          <Link to={`${process.env.PUBLIC_URL}/product-details/${item.id}`}>{item.title}</Link>
+                          <Link to={`/product-details/${item.id}`}>{item.title}</Link>
                         </h5>
                         <div className="product-price text-primary h5">
                           <small className="text-muted del fs-13px">${item.prevPrice}</small> ${item.newPrice}

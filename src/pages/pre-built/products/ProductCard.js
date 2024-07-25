@@ -236,7 +236,7 @@ const ProductCard = () => {
                 <Col xxl={3} lg={4} sm={6} key={item.id}>
                   <Card className="card-bordered product-card">
                     <div className="product-thumb">
-                      <Link to={`${process.env.PUBLIC_URL}/product-details/${item.id}`}>
+                      <Link to={`/product-details/${item.id}`}>
                         <img className="card-img-top" src={item.img} alt="" />
                       </Link>
                       <ul className="product-badges">
@@ -267,11 +267,11 @@ const ProductCard = () => {
                     <div className="card-inner text-center">
                       <ul className="product-tags">
                         <li>
-                          <Link to={`${process.env.PUBLIC_URL}/product-details/${item.id}`}>{item.name}</Link>
+                          <Link to={`/product-details/${item.id}`}>{item.name}</Link>
                         </li>
                       </ul>
                       <h5 className="product-title">
-                        <Link to={`${process.env.PUBLIC_URL}/product-details/${item.id}`}>{item.title}</Link>
+                        <Link to={`/product-details/${item.id}`}>{item.title}</Link>
                       </h5>
                       <div className="product-price text-primary h5">
                         {item.prevPrice && <small className="text-muted del fs-13px">${item.prevPrice}</small>} $

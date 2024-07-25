@@ -26,14 +26,14 @@ const Register = () => {
   const handleFormSubmit = () => {
     setLoading(true);
     setTimeout(() => {
-      navigate(`${process.env.PUBLIC_URL}/auth-success`);
+      navigate(`/auth-success`);
     }, 1000);
   };
   return <>
     <Head title="Register" />
       <Block className="nk-block-middle nk-auth-body  wide-xs">
         <div className="brand-logo pb-4 text-center">
-          <Link to={`${process.env.PUBLIC_URL}/`} className="logo-link">
+          <Link to={`/`} className="logo-link">
             <img className="logo-light logo-img logo-img-lg" src={Logo} alt="logo" />
             <img className="logo-dark logo-img logo-img-lg" src={LogoDark} alt="logo-dark" />
           </Link>
@@ -116,7 +116,7 @@ const Register = () => {
           <div className="form-note-s2 text-center pt-4">
             {" "}
             Already have an account?{" "}
-            <Link to={`${process.env.PUBLIC_URL}/auth-login`}>
+            <Link to={`/auth-login`}>
               <strong>Sign in instead</strong>
             </Link>
           </div>

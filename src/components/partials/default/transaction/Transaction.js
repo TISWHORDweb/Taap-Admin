@@ -74,7 +74,7 @@ const TransactionTable = () => {
           <CardTitle>
             <h6 className="title">
               <span className="me-2">Transaction</span>{" "}
-              <Link to={`${process.env.PUBLIC_URL}/transaction-basic`} className="link d-none d-sm-inline">
+              <Link to={`/transaction-basic`} className="link d-none d-sm-inline">
                 See History
               </Link>
             </h6>

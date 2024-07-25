@@ -12,7 +12,7 @@ const ForgotPassword = () => {
       <Head title="Forgot-Password" />
         <Block className="nk-block-middle nk-auth-body  wide-xs">
           <div className="brand-logo pb-4 text-center">
-            <Link to={process.env.PUBLIC_URL + "/"} className="logo-link">
+            <Link to={ "/"} className="logo-link">
               <img className="logo-light logo-img logo-img-lg" src={Logo} alt="logo" />
               <img className="logo-dark logo-img logo-img-lg" src={LogoDark} alt="logo-dark" />
             </Link>
@@ -47,7 +47,7 @@ const ForgotPassword = () => {
               </div>
             </form>
             <div className="form-note-s2 text-center pt-4">
-              <Link to={`${process.env.PUBLIC_URL}/auth-login`}>
+              <Link to={`/auth-login`}>
                 <strong>Return to login</strong>
               </Link>
             </div>

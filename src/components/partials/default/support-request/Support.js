@@ -13,7 +13,7 @@ const Support = () => {
             <h6 className="title">Support Requests</h6>
           </CardTitle>
           <div className="card-tools">
-            <Link to={`${process.env.PUBLIC_URL}/app-messages`} className="link">
+            <Link to={`/app-messages`} className="link">
               All Tickets
             </Link>
           </div>

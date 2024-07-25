@@ -56,7 +56,7 @@ const KycDetailsRegular = () => {
                 </BlockDes>
               </BlockHeadContent>
               <BlockHeadContent>
-                <Link to={`${process.env.PUBLIC_URL}/kyc-list-regular`}>
+                <Link to={`/kyc-list-regular`}>
                   <Button color="light" outline className="bg-white d-none d-sm-inline-flex">
                     <Icon name="arrow-left"></Icon>
                     <span>Back</span>

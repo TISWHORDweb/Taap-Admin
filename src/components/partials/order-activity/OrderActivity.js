@@ -26,7 +26,7 @@ const OrderActivity = () => {
           <CardTitle>
             <h6 className="title">
               <span className="me-2">Orders Activities</span>{" "}
-              <Link to={`${process.env.PUBLIC_URL}/transaction-crypto`} className="link d-none d-sm-inline">
+              <Link to={`/transaction-crypto`} className="link d-none d-sm-inline">
                 See History
               </Link>
             </h6>

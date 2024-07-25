@@ -75,9 +75,9 @@ const UserProfileAside = ({updateSm,sm}) => {
         <ul className="link-list-menu">
         <li onClick={() => updateSm(false)}>
             <Link
-            to={`${process.env.PUBLIC_URL}/user-profile-regular`}
+            to={`/user-profile-regular`}
             className={
-                window.location.pathname === `${process.env.PUBLIC_URL}/user-profile-regular` ? "active" : ""
+                window.location.pathname === `/user-profile-regular` ? "active" : ""
             }
             >
             <Icon name="user-fill-c"></Icon>
@@ -86,9 +86,9 @@ const UserProfileAside = ({updateSm,sm}) => {
         </li>
         <li onClick={() => updateSm(false)}>
             <Link
-            to={`${process.env.PUBLIC_URL}/user-profile-notification`}
+            to={`/user-profile-notification`}
             className={
-                window.location.pathname === `${process.env.PUBLIC_URL}/user-profile-notification`
+                window.location.pathname === `/user-profile-notification`
                 ? "active"
                 : ""
             }
@@ -99,9 +99,9 @@ const UserProfileAside = ({updateSm,sm}) => {
         </li>
         <li onClick={() => updateSm(false)}>
             <Link
-            to={`${process.env.PUBLIC_URL}/user-profile-activity`}
+            to={`/user-profile-activity`}
             className={
-                window.location.pathname === `${process.env.PUBLIC_URL}/user-profile-activity` ? "active" : ""
+                window.location.pathname === `/user-profile-activity` ? "active" : ""
             }
             >
             <Icon name="activity-round-fill"></Icon>
@@ -110,9 +110,9 @@ const UserProfileAside = ({updateSm,sm}) => {
         </li>
         <li onClick={() => updateSm(false)}>
             <Link
-            to={`${process.env.PUBLIC_URL}/user-profile-setting`}
+            to={`/user-profile-setting`}
             className={
-                window.location.pathname === `${process.env.PUBLIC_URL}/user-profile-setting` ? "active" : ""
+                window.location.pathname === `/user-profile-setting` ? "active" : ""
             }
             >
             <Icon name="lock-alt-fill"></Icon>
