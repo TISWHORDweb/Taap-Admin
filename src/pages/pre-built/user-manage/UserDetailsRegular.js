@@ -43,7 +43,7 @@ const UserDetailsPage = () => {
     } else {
       setUser(data[0]);
     }
-  }, [data]);
+  }, [data,userId]);
 
   // function to toggle sidebar
   const toggle = () => {

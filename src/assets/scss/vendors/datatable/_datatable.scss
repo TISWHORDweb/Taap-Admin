@@ -221,7 +221,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr:not(.child)>th:first-child{
   cursor: pointer;
   &:before{
     content: $datatable-collapsed-unfold;
-    font-family: $nk-dashlite-font;
+    font-family: $nk-taap-font;
     margin-right: 0.4rem;
   }
 }

@@ -39,7 +39,7 @@ const Homepage = () => {
                 Sales Overview
               </BlockTitle>
               <BlockDes className="text-soft">
-                <p>Welcome to DashLite Dashboard Template</p>
+                <p>Welcome to Taap Dashboard </p>
               </BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>
@@ -137,34 +137,9 @@ const Homepage = () => {
                 </Col>
               </Row>
             </Col>
-            <Col xxl="6">
-              <PreviewAltCard className="h-100">
-                <SalesOverview />
-              </PreviewAltCard>
-            </Col>
             <Col xxl="8">
               <Card className="card-bordered card-full">
                 <TransactionTable />
-              </Card>
-            </Col>
-            <Col xxl="4" md="6">
-              <Card className="card-bordered card-full">
-                <RecentActivity />
-              </Card>
-            </Col>
-            <Col xxl="4" md="6">
-              <Card className="card-bordered card-full">
-                <NewsUsers />
-              </Card>
-            </Col>
-            <Col lg="6" xxl="4">
-              <Card className="card-bordered h-100">
-                <Support />
-              </Card>
-            </Col>
-            <Col lg="6" xxl="4">
-              <Card className="card-bordered h-100">
-                <Notifications />
               </Card>
             </Col>
           </Row>

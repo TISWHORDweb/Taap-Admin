@@ -216,7 +216,7 @@ div.dt-buttons a.btn.processing:after {
     font-weight: normal;
     font-style: normal;
     width: $btn-line-height + $btn-padding-y*2;
-    font-family: $nk-dashlite-font;
+    font-family: $nk-taap-font;
   }
 }
 .dt-export{
@@ -262,7 +262,7 @@ div.dt-buttons a.btn.processing:after {
         top: 50%;
         transform: translateY(-50%);
         right: 1rem;
-        font-family: $nk-dashlite-font;
+        font-family: $nk-taap-font;
       }
     }
   }

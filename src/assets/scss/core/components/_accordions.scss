@@ -94,7 +94,7 @@ $accordion-s3-icon-collapsed: $ni-plus !default;
         line-height: 20px;
         &:before {
             content: $accordion-icon;
-            font-family: $nk-dashlite-font;
+            font-family: $nk-taap-font;
             transition: 0.4s;
             .accordion-head.collapsed &{
                 content: $accordion-icon-collapsed;

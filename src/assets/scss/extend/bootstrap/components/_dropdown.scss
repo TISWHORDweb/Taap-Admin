@@ -86,7 +86,7 @@ $dropup-indicator-unfold-icon: $ni-unfold-more !default;
 [class*="dropdown-indicator"]{
     &:after{
         border: none !important;
-        font-family: $nk-dashlite-font;
+        font-family: $nk-taap-font;
         vertical-align: middle;
         content: $dropdown-indicator-icon;
         margin-left: 0.25rem;

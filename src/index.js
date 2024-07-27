@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
-import "./assets/scss/dashlite.scss";
+import "./assets/scss/taap.scss";
 import "./assets/scss/style-email.scss";
 
 import reportWebVitals from "./reportWebVitals";

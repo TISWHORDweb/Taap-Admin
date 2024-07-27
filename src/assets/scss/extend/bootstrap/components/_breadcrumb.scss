@@ -17,7 +17,7 @@ $breadcrumb-arrow-rtl: $ni-back-ios !default;
         }
         + .breadcrumb-item::before{
             .breadcrumb-arrow &{
-                font-family: $nk-dashlite-font;
+                font-family: $nk-taap-font;
                 content: $breadcrumb-arrow-ltr;
             }
         }

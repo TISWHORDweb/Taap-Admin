@@ -8,11 +8,10 @@ import AppRoot from "./global/AppRoot";
 import AppMain from "./global/AppMain";
 import AppWrap from "./global/AppWrap";
 
-import FileManagerProvider from "../pages/app/file-manager/components/Context";
 
 const Layout = ({title, ...props}) => {
   return (
-    <FileManagerProvider>
+    <>
       <Head title={!title && 'Loading'} />
       <AppRoot>
         <AppMain>
@@ -24,7 +23,7 @@ const Layout = ({title, ...props}) => {
           </AppWrap>
         </AppMain>
       </AppRoot>
-    </FileManagerProvider>
+    </>
   );
 };
 export default Layout;
